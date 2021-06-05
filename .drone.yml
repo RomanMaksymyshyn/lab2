@@ -10,6 +10,10 @@ steps:
   - pip install requests
   - pip install requests
 
+- name: logging
+  image: python
+  commands: print ('hello world')
+
 - name: testing
   image: python
   commands:
