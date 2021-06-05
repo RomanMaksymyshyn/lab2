@@ -12,8 +12,7 @@ steps:
 - name: testing
   image: python
   commands:
-  - pip install pytest
-  - python -m pytest
+  - python --version
 
 - name: fascade
   image: python
