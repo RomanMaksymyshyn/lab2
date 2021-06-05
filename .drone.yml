@@ -22,14 +22,17 @@ steps:
 - name: fascade
   image: python
   commands:
+  - pip install requests
   - python ./fascade.py
 
 - name: logging
   image: python
   commands:
+  - pip install requests
   - python ./log_srv.py
 
 - name: msg
   image: python
   commands:
+  - pip install requests
   - python ./msg-srv.py
