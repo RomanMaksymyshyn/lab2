@@ -12,7 +12,8 @@ steps:
 
 - name: logging
   image: python
-  commands: print ('hello world')
+  commands: 
+  - python print ('hello world')
 
 - name: testing
   image: python
