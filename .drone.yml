@@ -10,9 +10,9 @@ steps:
   - pip install requests
   - pip install requests
 
-- name: logging
+- name: hello
   image: python
-  commands: 
+  commands:
   - python ./hello.py
 
 - name: testing
