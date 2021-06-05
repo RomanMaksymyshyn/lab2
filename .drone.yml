@@ -13,7 +13,7 @@ steps:
 - name: logging
   image: python
   commands: 
-  - python print ('hello world')
+  - python ./hello.py
 
 - name: testing
   image: python
