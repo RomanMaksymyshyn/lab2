@@ -23,6 +23,7 @@ steps:
   image: python
   commands:
   - pip install requests
+  - pip install Flask
   - python ./fascade.py
 
 - name: logging
@@ -30,9 +31,12 @@ steps:
   commands:
   - pip install requests
   - python ./log_srv.py
+  - pip install Flask
 
 - name: msg
   image: python
   commands:
   - pip install requests
   - python ./msg-srv.py
+  - pip install Flask
+
